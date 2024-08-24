@@ -627,6 +627,15 @@ require('lazy').setup({
         terraformls = {},
         tsserver = {},
         solargraph = {},
+        html = {
+          settings = {
+            html = {
+              format = {
+                indentInnerHtml = true,
+              },
+            },
+          },
+        },
 
         lua_ls = {
           -- cmd = {...},
